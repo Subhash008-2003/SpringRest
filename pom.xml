@@ -11,7 +11,7 @@
 	<groupId>com.nit</groupId>
 	<artifactId>SpringBootRest01-FirstApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>SpringBootRest01-FirstApplication</name>
 	<description>Spring Boot MVC</description>
 	<url/>
@@ -41,11 +41,6 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
